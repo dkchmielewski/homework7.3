@@ -14,7 +14,7 @@ public class GuessNumber {
                 System.out.println("Liczna jest za mala");
             } else if (number > 200) {
                 System.out.println("Liczba jest za duza");
-            } else if (number % 3 != 0 && number > 99 && number < 201) {
+            } else {
                 System.out.println("Liczba nie jest podzielna przez 3");
             }
         }
