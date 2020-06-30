@@ -17,7 +17,7 @@ public class GuessNumber {
                 System.out.println("Liczba jest ok");
             }
         }
-        while (number % 3 != 0 && number > 99 && number < 201 ||  number > 200 || number < 100);
+        while (number < 100 || number > 200 || number % 3 != 0);
 
     }
 }
